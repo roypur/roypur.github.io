@@ -7,7 +7,7 @@ body{
 }
 
 #top{
-    height: 5em;
+    height: 7%;
     background-color: #222;
     overflow: hidden;
     width: 100%;
@@ -16,22 +16,32 @@ body{
 #page{
     overflow:hidden;
     width: 80%;
-    height: 100%;
+    height: 87%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     background-color:#212;
     color: #0f0;
     padding-top:0px;
-    }
+}
 h1{
     font-size: 1.5em;
     padding: 0.5em;
     text-align: center;
     color: #0f0;
 }
-.post{
+.post{standard terminal font
     padding-top: 5em;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#bottom{
+    height: 2%;
+    width: 60%;
+    background-color: #222;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
