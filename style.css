@@ -4,10 +4,11 @@ body{
     margin: 0;
     overflow: hidden;
     font: 15px Monospace;
+    color: #0f0;
 }
 
 #top{
-    height: 7%;
+    height: 5em;
     background-color: #222;
     overflow: hidden;
     width: 100%;
@@ -16,7 +17,7 @@ body{
 #page{
     overflow:hidden;
     width: 80%;
-    height: 87%;
+    height: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -37,11 +38,13 @@ h1{
 }
 
 #bottom{
-    height: 2%;
+    position: fixed;
+    bottom: 0;
+    height: 2em;
     width: 60%;
     background-color: #222;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2em;
+    padding-bottom: 1em;
 }
