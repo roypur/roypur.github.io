@@ -50,6 +50,8 @@ h1{
 }
 
 .b-img{
-height: 30px;
-margin: auto;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
