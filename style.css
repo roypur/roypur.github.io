@@ -17,7 +17,7 @@ body{
 }
 
 #page{
-    overflow:hidden;
+    overflow:auto;
     width: 80%;
     height: 100%;
     margin-left: auto;
@@ -26,8 +26,10 @@ body{
     background-color:#212;
     color: #0f0;
     padding-top:0px;
-    margin-bottom: -130px;
+    margin-bottom: -260px;
+    z-index: 200;
 }
+
 h1{
     font-size: 30px;
     text-align: center;
@@ -40,6 +42,8 @@ h1{
 }
 
 #bottom{
+    position: absolute;
+    z-index: 300;
     height: 40px;
     width: 60%;
     background-color: #222;
@@ -47,6 +51,7 @@ h1{
     padding-right: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 130;
 }
 
 .b-img{
@@ -55,3 +60,7 @@ h1{
     margin-right: auto;
     width: auto;
 }
+
+#space{
+    height: 150px;
+    }
