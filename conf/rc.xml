@@ -182,22 +182,23 @@ cases. -->
         <wrap>no</wrap>
       </action>
     </keybind>
-
-    <keybind key="A-F2">
+    
+    <keybind key="A-F3">
       <action name="Execute">
            <command>
-            lxterminal
+            terminator
            </command>
         <wrap>no</wrap>
       </action>
     </keybind>
+    
     <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
 
-    <keybind key="A-F3">
+    <keybind key="A-F2">
       <action name="Execute">
-        <command>~/.config/dmenu/dmenu-bind.sh</command>
+        <command>dmenu_run</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>dmenu</name>
