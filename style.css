@@ -1,12 +1,27 @@
 body{
-    background-color: #000;
+    background-color: #212;
     padding: 0;
     margin: 0;
     overflow: hidden;
     font: 15px Monospace;
     color: #0f0;
 }
-
+#left{
+    position: absolute;
+    left: 0px;
+    width: 10%;
+    height: 100%;
+    background-color: #000;
+    z-index: 20;
+    }
+#right{
+    position: absolute;
+    right: 0px;
+    width: 10%;
+    height: 100%;
+    background-color: #000;
+    z-index: 20;
+    }
 #top{
     height: 50px;
     background-color: #222;
@@ -15,8 +30,11 @@ body{
     padding-bottom: 20px;
 }
 #outer{
+    position: absolute;
     overflow: none;
     height: 90%;
+    width: 100%;
+    z-index: 30;
     }
 
 #inner{
@@ -53,7 +71,7 @@ h1{
 
 #bottom{
     position: absolute;
-    z-index: 300;
+    z-index: 30;
     height: 50px;
     width: 60%;
     bottom: 0px;
