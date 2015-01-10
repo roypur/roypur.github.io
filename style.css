@@ -17,8 +17,13 @@ body{
 #outer{
     overflow: none;
     height: 90%;
-    padding-bottom: 10%;
     }
+    
+#space{
+    height: 10%;
+    margin-bottom: -70px;
+    }
+    
 #inner{
     height: 90%;
     background-color:#212;
@@ -49,23 +54,18 @@ h1{
     margin-right: 20%;
 }
 
+
+
 #bottom{
-    position: absolute;
     z-index: 300;
     height: 50px;
     width: 60%;
-    bottom: 0px;
     background-color: #222;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#space{
-    overflow: none;
-    height: 0px;
-    background-color: #222;
-    }
 .b-img{
     height: 100%;
     margin-left: auto;
