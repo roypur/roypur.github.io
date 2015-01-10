@@ -6,121 +6,139 @@
         </title>
     </head>
     <body>
-        <div id='top'>
-            <h1>Roy Olav's coding sandbox</h1>
-        </div>
-        <div id='page'>
-            <div class='post'>
-                <h><b>Review:</b> Ubiquity edge router lite</h></br></br></br></br>
-                    <a href='images/edgeos/edgeos-1.png'>
-                        <img src='images/edgeos/edgeos-1.png' width = 100%>
-                    </img>
-                </a>
+        <div id='outer'>
+            <div id='top'>
+                <h1>Roy Olav's coding sandbox</h1>
+            </div>
+        <div id='inner'>
+            <div id='page'>
+                <div class='post'>
+                    <h><b>Review:</b> Ubiquity edge router lite</h></br></br></br></br>
+                        <a href='images/edgeos/edgeos-1.png'>
+                            <img src='images/edgeos/edgeos-1.png' width = 100%>
+                        </img>
+                    </a>
                         
-                <p>The edge router has a good set of features. On the first page in the 
-                interface
-                you can see simple usage graphs. This is also where you change ip adresses of 
-                the interfaces. In the top of the UI you can see uptime, CPU usage and RAM 
-                usage.
-                </p></br></br></br>
-                    <a href='images/edgeos/edgeos-2.png'>
-                        <img src='images/edgeos/edgeos-2.png' width = 100%>
-                    </img>
-                </a>
+                    <p>The edge router has a good set of features. On the first page in the 
+                    interface
+                    you can see simple usage graphs. This is also where you change ip 
+                    adresses of 
+                    the interfaces. In the top of the UI you can see uptime, CPU usage and 
+                    RAM 
+                    usage.
+                    </p></br></br></br>
+                        <a href='images/edgeos/edgeos-2.png'>
+                            <img src='images/edgeos/edgeos-2.png' width = 100%>
+                        </img>
+                    </a>
                 
-                <p>
-                    In the next tab you can set up static routes and configure OSPF.
-                </p></br></br></br>
-                    <a href='images/edgeos/edgeos-3.png'>
-                        <img src='images/edgeos/edgeos-3.png' width = 100%>
-                    </img>
-                </a>
-                <p>Simple port forwarding.</p></br></br></br>
+                    <p>
+                        In the next tab you can set up static routes and configure OSPF.
+                    </p></br></br></br>
+                        <a href='images/edgeos/edgeos-3.png'>
+                            <img src='images/edgeos/edgeos-3.png' width = 100%>
+                        </img>
+                    </a>
+                    <p>Simple port forwarding.</p></br></br></br>
                 
-                    <a href='images/edgeos/edgeos-4.png'>
-                        <img src='images/edgeos/edgeos-4.png' width = 100%>
-                    </img>
-                </a>
-                <p>The edge router lite has a quite advanced firewall UI.
-                In addition to setting access based on ip address and port you can filter
-                based on port state. Under the hood the router uses iptables, which you can 
-                acces with the CLI.</p></br></br></br>
-                    <a href='images/edgeos/edgeos-5.png'>
-                        <img src='images/edgeos/edgeos-5.png' width = 100%>
-                    </img>
-                </a>
+                        <a href='images/edgeos/edgeos-4.png'>
+                            <img src='images/edgeos/edgeos-4.png' width = 100%>
+                        </img>
+                    </a>
+                    <p>The edge router lite has a quite advanced firewall UI.
+                    In addition to setting access based on ip address and port you can filter
+                    based on port state. Under the hood the router uses iptables, which you 
+                    can 
+                    acces with the CLI.</p></br></br></br>
+                        <a href='images/edgeos/edgeos-5.png'>
+                            <img src='images/edgeos/edgeos-5.png' width = 100%>
+                        </img>
+                    </a>
                 
-                <p>The router can be very difficult to set up if you dont know what you are 
-                doing. One great example of that is the NAT. The image shows a simple
-                NAT configuration that works. You can choose to use the configuration wizard
-                to set up the router for you. But remember. It will <b>wipe all settings</b> 
-                on the router.</p>
-                <br><br><br><br>
-                    <a href='images/edgeos/edgeos-6.png'>
-                        <img src='images/edgeos/edgeos-6.png' width = 100%>
-                    </img>
-                </a>    
+                    <p>The router can be very difficult to set up if you dont know what you 
+                    are 
+                    doing. One great example of that is the NAT. The image shows a simple
+                    NAT configuration that works. You can choose to use the configuration 
+                    wizard
+                    to set up the router for you. But remember. It will <b>wipe all settings
+                    </b> 
+                    on the router.</p>
+                    <br><br><br><br>
+                        <a href='images/edgeos/edgeos-6.png'>
+                            <img src='images/edgeos/edgeos-6.png' width = 100%>
+                        </img>
+                    </a>    
                 
-                <p>The built-in DHCP-server in the router is easy to set up. You can easily
-                 look up dhcp leases.</p>
+                    <p>The built-in DHCP-server in the router is easy to set up. You can 
+                    easily
+                    look up dhcp leases.</p>
                  
-                <br><br><br><br>
-                    <a href='images/edgeos/edgeos-7.png'>
-                        <img src='images/edgeos/edgeos-7.png' width = 100%>
-                    </img>
-                </a>                
+                    <br><br><br><br>
+                        <a href='images/edgeos/edgeos-7.png'>
+                            <img src='images/edgeos/edgeos-7.png' width = 100%>
+                        </img>
+                    </a>                
                  
                  
-                 <p>Dynamic dns is easy to set up on this router, but I think it would be 
-                 nice 
-                 to be able to add other providers in the gui. I think TomatoUSB's ddns 
-                 client 
-                 is doing this the right way.
-                 <br><br>
-                 I would think you can make your own ddns client update script through
-                 <a href='http://vyos.net/wiki/Task_schedulertask'>Task Scheduler</a>.
-                 I havent tried 
-                 this myself though, but I think it would work.
-                 </p>
+                    <p>Dynamic dns is easy to set up on this router, but I think it would be 
+                    nice 
+                    to be able to add other providers in the gui. I think TomatoUSB's ddns 
+                    client 
+                    is doing this the right way.
+                    <br><br>
+                    I would think you can make your own ddns client update script through
+                    <a href='http://vyos.net/wiki/Task_schedulertask'>Task Scheduler</a>.
+                    I havent tried 
+                    this myself though, but I think it would work.
+                    </p>
                  
-                <br><br><br><br>
-                    <a href='images/edgeos/edgeos-8.png'>
-                        <img src='images/edgeos/edgeos-8.png' width = 100%>
-                    </img>
-                </a>
-                <p>You can have multiple users on the router. I think this is a nice feature, 
-                but without the 
-                possibility to have difrent access rights per user, I dont see how this would 
-                help me very far. I dont 
-                wont to give out admin rights. The operator user-mode is read-only.</p>
+                    <br><br><br><br>
+                        <a href='images/edgeos/edgeos-8.png'>
+                            <img src='images/edgeos/edgeos-8.png' width = 100%>
+                        </img>
+                    </a>
+                    <p>You can have multiple users on the router. I think this is a nice 
+                    feature, 
+                    but without the 
+                    possibility to have difrent access rights per user, I dont see how this 
+                    would 
+                    help me very far. I dont 
+                    wont to give out admin rights. The operator user-mode is read-only.</p>
                 
-                <b>Verdict</b>
-                <br>
-                <p>
-                The router is fast, and I love the feel of the router. I would have loved the 
-                posibility to add custom 
-                ddns updates easily, and more advanced user management. It is Difficult to 
-                set up the first time, and i 
-                would not recomend it to anyone without prior experience with networking. You 
-                cant set up IPv6 DHCP-PD  
-                in the GUI, which is a really basic feature.<br><br>All over i would recomend 
-                it, but only if you know 
-                what you are doing and dont need built-in WIFI.</p>
-                <br><br>
-                <img src='images/dice/5.svg' id='dice'></img>
+                    <b>Verdict</b>
+                    <br>
+                    <p>
+                    The router is fast, and I love the feel of the router. I would have loved 
+                    the 
+                    posibility to add custom 
+                    ddns updates easily, and more advanced user management. It is Difficult 
+                    to 
+                    set up the first time, and i 
+                    would not recomend it to anyone without prior experience with networking. 
+                    You 
+                    cant set up IPv6 DHCP-PD  
+                    in the GUI, which is a really basic feature.<br><br>All over i would 
+                    recomend 
+                    it, but only if you know 
+                    what you are doing and dont need built-in WIFI.</p>
+                    <br><br>
+                    <img src='images/dice/5.svg' id='dice'></img>
                 
                  
-            </div>
-            <div class='post'>
-                Second Post
-            </div>
-        <div id='space'></div>
-        </div>
+                </div>
+                <div class='post'>
+                    Second Post
+                </div>
+            </div> <!--page end-->
+          </div> <!--inner end-->  
+        </div> <!--outer end-->
+        
+        
         <div id='bottom'>
             <a href='gpg.asc'>
                 <img class='b-img' src='images/gpg.svg'>
                 </img>
             </a>
-        </div>
+        </div><!--bottom end-->
     </body>
 </html>
