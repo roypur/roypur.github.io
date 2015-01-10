@@ -60,6 +60,7 @@ h1{
     z-index: 300;
     height: 50px;
     width: 60%;
+    bottom: 0px;
     background-color: #222;
     padding-left: 20%;
     padding-right: 20%;
