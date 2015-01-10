@@ -38,7 +38,7 @@ body{
     }
 
 #inner{
-    height: 90%;
+    height: 95%;
     background-color:#212;
     padding-bottom: 50px;
     width: 80%;
@@ -52,7 +52,7 @@ body{
     margin-top: 0px;
     background-color:#212;
     color: #00ff00;
-    z-index: 200;
+
 }
 
  
