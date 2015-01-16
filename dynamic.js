@@ -5,6 +5,10 @@ function addSpace(){
     var height = window.innerHeight; //available space
     var sHeight = height-pHeight; //size of space div
     
+    if(pHeight == height){
+        sHeight=height;
+        }
+    
     if(sHeight>100){
         document.getElementById('space').style.height = sHeight;
         document.body.style.overflowY = 'hidden';
@@ -14,6 +18,5 @@ function addSpace(){
         document.body.style.overflowY = 'scroll';
         }
 }
-
 window.onload=addSpace;
 window.onresize=addSpace;
