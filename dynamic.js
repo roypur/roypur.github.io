@@ -1,14 +1,17 @@
 function addSpace(){
-    var pHeight = document.getElementById('page').clientHeight;
-    var tHeight = document.getElementById('top').clientHeight;
-    var bHeight = document.getElementById('bottom').clientHeight;
+    var pHeight = document.body.offsetHeight;
     var height = window.innerHeight;
     
-    var sHeight = height - bHeight - tHeight - pHeight;
+    var sHeight = height-pHeight;
     
     if(sHeight>0){
-        document.getElementById('space').style.height = height;
+        document.getElementById('space').style.height = sHeight+2;
+        document.body.style.overflowY = 'hidden';
     }
+    else{
+        document.getElementById('space').style.height = 50;
+        document.body.style.overflowY = 'scroll';
+        }
 }
 
 window.onload=addSpace;
