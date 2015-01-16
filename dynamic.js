@@ -5,7 +5,7 @@ function addSpace(){
     var height = window.innerHeight; //available space
     var sHeight = height-pHeight; //size of space div
     
-    if(pHeight == height){
+    if(height <= pHeight){
         sHeight=height;
         }
     
