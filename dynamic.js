@@ -2,7 +2,7 @@ function addSpace(){
     document.getElementById('space').style.height = 0;
     
     var pHeight = document.body.offsetHeight; //height of the content
-    var height = window.outerHeight; //available space
+    var height = window.innerHeight; //available space
     var sHeight = height-pHeight; //size of space div
     
     if(sHeight>100){
