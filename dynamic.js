@@ -1,16 +1,16 @@
 function addSpace(){
-    document.getElementById('space').style.height = 0;
-    
-    var pHeight = document.documentElement.offsetHeight; //height of the content
     var height = window.innerHeight; //available space
-    var sHeight = height-pHeight; //size of space div
     
-    if(height == pHeight){
-        sHeight=pHeight;
-        }
+    document.getElementById('space').style.height = height;
     
-    if(sHeight>100){
-        document.getElementById('space').style.height = sHeight;
+    var scroll = document.body.scrollHeight;
+    
+    var content = scroll - height;
+    
+    var space = height-content; //size of space div
+    
+    if(space>100){
+        document.getElementById('space').style.height = space;
         document.body.style.overflowY = 'hidden';
         }
     else{
