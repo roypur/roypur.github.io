@@ -5,7 +5,7 @@ function addSpace(){
     if(typeof(window.orientation) != Number || document.body.dataset.run != "false"){
         document.body.dataset.run = "false";
         
-    document.getElementById('space').innerHTML = window.innerHeight + "x" + window.orientation + "x" + document.body.scrollHeight;
+    document.getElementById('space').innerHTML = window.innerHeight + "x" + window.orientation + "x" + document.body.scrollHeight + "x" + document.body.dataset.run;
         
     document.getElementById('space').style.height = height;
     
