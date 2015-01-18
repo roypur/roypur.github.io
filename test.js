@@ -5,10 +5,21 @@ function addSpace(){
     if(typeof(first) == "undefined"){
         document.body.dataset.first = false;
         }
-    
-    if(typeof(window.orientation) == "undefined" || typeof(first) == "undefined"){
-
+        
+    if(typeof(window.orientation) != "undefined"){
+        var height = window.outerHeight; //available space
+        }
+    else{
         var height = window.innerHeight; //available space
+        }
+        
+        
+        
+        
+        
+        
+    
+    //if(typeof(window.orientation) == "undefined" || typeof(first) == "undefined"){
     
         document.getElementById('space').style.height = height;
     
@@ -26,7 +37,7 @@ function addSpace(){
             document.getElementById('space').style.height = 100;
             document.body.style.overflowY = 'scroll';
             }
-        }
+        //}
     }
 window.onload=addSpace;
 window.onresize=addSpace;
