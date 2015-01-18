@@ -26,4 +26,3 @@ function addSpace(){
 }
 window.onload=addSpace;
 window.onresize=addSpace;
-window.onscroll=addSpace;
