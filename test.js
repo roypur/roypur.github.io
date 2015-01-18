@@ -13,7 +13,7 @@ function addSpace(){
     
     var space = height-content; //size of space div
     
-    document.getElementById('space').innerHTML = scroll + "x" + height;
+    document.getElementById('space').innerHTML = window.orientation;
     
     if(space>100){
         document.getElementById('space').style.height = space;
