@@ -1,6 +1,12 @@
 function addSpace(){
     
-    if(typeof(window.orientation) == "undefined" || typeof(height) == "undefined"){
+    var first = document.body.dataset.first;
+    
+    if(typeof(first) == "undefined"){
+        document.body.dataset.first = false;
+        }
+    
+    if(typeof(window.orientation) == "undefined" || typeof(first) == "undefined"){
 
         var height = window.innerHeight; //available space
     
