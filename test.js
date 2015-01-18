@@ -3,7 +3,7 @@ function addSpace(){
     var height = window.innerHeight; //available space
 
         
-    document.getElementById('space').innerHTML = window.innerHeight + "x" + window.innerWidth + "x" +  window.outerWidth + "x" + window.outerHeight + "x" + screen.height;
+    document.getElementById('space').innerHTML = window.innerHeight + "x" + window.innerWidth + "x" + document.body.scrollHeight;
         
         
         
