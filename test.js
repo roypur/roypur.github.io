@@ -2,11 +2,11 @@ function addSpace(){
     
     var height = window.innerHeight; //available space
     
-    var calc = (screen.height/window.outerHeight)*window.innerHeight;
+    var calc = Math.ceil((screen.height/window.outerHeight)*window.innerHeight);
         
     document.getElementById('space').innerHTML = window.innerHeight + "x" + screen.height + "x" + calc + "x";
     
-    var calc = (screen.height/window.outerHeight)*window.innerHeight;
+    
     
     
     
