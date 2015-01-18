@@ -7,13 +7,13 @@ function addSpace(){
         }
         
     if(typeof(window.orientation) != "undefined"){
-        var height = window.outerHeight; //available space
+        var height = screen.height; //available space
         }
     else{
         var height = window.innerHeight; //available space
         }
         
-    alert(height + "x" + window.innerHeight + "x" + screen.height);
+    //alert(height + "x" + window.innerHeight + "x" + screen.height);
         
         
         
