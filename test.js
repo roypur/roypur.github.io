@@ -13,7 +13,7 @@ function addSpace(){
         var height = window.innerHeight; //available space
         }
         
-        
+    alert(height);
         
         
         
