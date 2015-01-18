@@ -1,17 +1,7 @@
 function addSpace(){
     
-    var first = document.body.dataset.first;
-    
-    if(typeof(first) == "undefined"){
-        document.body.dataset.first = false;
-        }
-        
-    if(typeof(window.orientation) != "undefined"){
-        var height = screen.height; //available space
-        }
-    else{
-        var height = window.innerHeight; //available space
-        }
+    var height = window.innerHeight; //available space
+
         
     document.getElementById('space').innerHTML = window.innerHeight + "x" + window.innerWidth + "x" +  window.outerWidth + "x" + window.outerHeight + "x" + screen.height;
         
@@ -19,7 +9,7 @@ function addSpace(){
         
         
     
-    //if(typeof(window.orientation) == "undefined" || typeof(first) == "undefined"){
+
     
         document.getElementById('space').style.height = height;
     
@@ -37,7 +27,8 @@ function addSpace(){
             document.getElementById('space').style.height = 100;
             document.body.style.overflowY = 'scroll';
             }
-        //}
+
     }
 window.onload=addSpace;
 window.onresize=addSpace;
+window.toutch=addSpace;
