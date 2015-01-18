@@ -1,4 +1,7 @@
 function addSpace(){
+    
+    document.body.style.zoom="100%";
+    
     var height = window.innerHeight; //available space
     
     document.getElementById('space').style.height = height;
