@@ -31,4 +31,4 @@ function addSpace(){
     }
 window.onload=addSpace;
 window.onresize=addSpace;
-window.toutch=addSpace;
+window.ontouchend=addSpace;
