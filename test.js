@@ -1,6 +1,7 @@
-function addSpace(){
+function addSpace(){    
     
-    document.body.style.zoom="100%";
+    var zoom = screen.availHeight
+    
     
     var height = window.innerHeight; //available space
     
@@ -12,7 +13,7 @@ function addSpace(){
     
     var space = height-content; //size of space div
     
-    document.getElementById('space').innerHTML = "scroll" + scroll + "<br><br>height" + height + "<br><br>screen" + screen.height + "<br><br>zoom" + screen.availHeight;
+    document.getElementById('space').innerHTML += 1;
     
     if(space>100){
         document.getElementById('space').style.height = space;
