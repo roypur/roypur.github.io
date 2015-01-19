@@ -1,5 +1,22 @@
 function addSpace(){
-
+    
+    var last = document.body.dataset.height;
+    
+    //if(typeof(last) == "undefined" || window.innerHeight > last*1 || typeof(window.orientation) == "undefined"){
+        document.body.dataset.height = window.innerHeight;
+        
+        
+        
+    
+        document.getElementById('space').style.height = 0;
+        
+        var body = document.body.scrollHeight;
+        
+        var total = document.getElementById('bottom').offsetTop + document.getElementById('bottom').offsetHeight;
+        
+        if(body > total){
+            document.getElementById('space').innerHTML = body + "x" + total;
+            }
         var offset = document.getElementById('bottom').offsetTop;
     
         var height = window.innerHeight; //available space
@@ -7,11 +24,7 @@ function addSpace(){
         var bottom = document.getElementById('bottom').offsetHeight;
     
         var space = height - offset - bottom;
-        
-        if(typeof(window.orientation) == "undefined"){
-            space += 60;
-            }
-            
+    
         if(space>100){
             document.getElementById('space').style.height = space;
             document.body.style.overflowY = 'hidden';
