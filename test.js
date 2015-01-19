@@ -1,16 +1,18 @@
 function addSpace(){
 
     document.getElementById('space').innerHTML = window.innerHeight + "x" + document.body.scrollHeight + "x" + document.getElementById('bottom').offsetTop;
-    
-    document.getElementById('space').style.height = 0;
-    
-    var offset = document.getElementById('bottom').offsetTop;
-    
+
     var height = window.innerHeight; //available space
 
-    var bottom = document.getElementById('bottom').offsetHeight;
+    document.getElementById('space').style.height = height;
     
-    var space = height - offset - bottom;
+    
+    var scroll = document.body.scrollHeight;
+    var content = scroll - height;
+    
+    var space = height-content; //size of space div
+    
+    console.log(document.getElementById('bottom').offsetTop);
     
     if(space>100){
         document.getElementById('space').style.height = space;
