@@ -6,17 +6,10 @@ function addSpace(){
         document.body.dataset.height = window.innerHeight;
         
         
-        
+        document.getElementById('space').innerHTML = window.innerHeight + "x" + last + "x" + screen.availHeight;
     
         document.getElementById('space').style.height = 0;
-        
-        var body = document.body.scrollHeight;
-        
-        var total = document.getElementById('bottom').offsetTop + document.getElementById('bottom').offsetHeight;
-        
-        if(body > total){
-            document.getElementById('space').innerHTML = body + "x" + total;
-            }
+    
         var offset = document.getElementById('bottom').offsetTop;
     
         var height = window.innerHeight; //available space
