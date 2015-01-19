@@ -1,22 +1,30 @@
 function addSpace(){
-    var height = window.innerHeight; //available space
+
+        var offset = document.getElementById('bottom').offsetTop;
     
-    document.getElementById('space').style.height = height;
+        var height = window.innerHeight; //available space
+
+        var bottom = document.getElementById('bottom').offsetHeight;
     
-    var scroll = document.body.scrollHeight;
-    
-    var content = scroll - height;
-    
-    var space = height-content; //size of space div
-    
-    if(space>100){
-        document.getElementById('space').style.height = space;
-        document.body.style.overflowY = 'hidden';
-        }
-    else{
-        document.getElementById('space').style.height = 100;
-        document.body.style.overflowY = 'scroll';
-        }
-}
+        var space = height - offset - bottom;
+            
+        if(typeof(window.orientation) != "undefined" && space>0){
+            space += 300;
+            }
+            
+        if(space>100){
+            document.getElementById('space').style.height = space;
+            document.body.style.overflowY = 'auto';
+            }
+        else{
+            document.getElementById('space').style.height = 100;
+            document.body.style.overflowY = 'scroll';
+            }
+    }
+
+if(typeof(window.orientation) == "undefined"){
+    window.onresize=addSpace;
+    }
+
 window.onload=addSpace;
-window.onresize=addSpace;
+
