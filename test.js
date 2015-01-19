@@ -6,7 +6,7 @@ function addSpace(){
         document.body.dataset.height = window.innerHeight;
         
         
-        document.getElementById('space').innerHTML = window.innerHeight + "x" + last + "x" + screen.height;
+        document.getElementById('space').innerHTML = window.innerHeight + "x" + last + "x" + screen.availHeight;
     
         document.getElementById('space').style.height = 0;
     
