@@ -8,8 +8,6 @@ function addSpace(){
         
     document.getElementById('space').innerHTML = window.innerHeight + "x" + last;
     
-    document.body.dataset.height = 
-    
     document.getElementById('space').style.height = 0;
     
     var offset = document.getElementById('bottom').offsetTop;
@@ -33,6 +31,8 @@ function addSpace(){
 if(typeof(window.orientation) == "undefined"){
     window.onresize=addSpace;
     }
-
+else{
+    window.onscroll=addSpace;    
+    }
 window.onload=addSpace;
 
