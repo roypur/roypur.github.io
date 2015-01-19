@@ -1,6 +1,6 @@
 function addSpace(){
 
-    document.getElementById('space').innerHTML = window.innerHeight + "x" + document.body.scrollHeight + "x" + document.getElementById('bottom').offsetTop;
+    document.getElementById('space').innerHTML = window.innerHeight + "x" + document.body.scrollHeight;
 
     var height = window.innerHeight; //available space
 
