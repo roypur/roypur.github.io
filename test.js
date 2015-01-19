@@ -25,6 +25,11 @@ function addSpace(){
 if(typeof(window.orientation) == "undefined"){
     window.onresize=addSpace;
     }
+else{
+    window.onscroll=addSpace;
+    }
+
+
 
 window.onload=addSpace;
 
