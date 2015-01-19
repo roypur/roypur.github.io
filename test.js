@@ -12,6 +12,8 @@ function addSpace(){
     
     var space = height-content; //size of space div
     
+    console.log(document.getElementById('bottom').offsetTop);
+    
     if(space>100){
         document.getElementById('space').style.height = space;
         document.body.style.overflowY = 'hidden';
