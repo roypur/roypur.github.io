@@ -8,7 +8,7 @@ function addSpace(){
     
         var space = height - offset - bottom;
             
-        if(typeof(window.orientation) != "undefined" && space>0){
+        if(typeof(window.orientation) != "undefined" && height > offset+bottom-300){
             space += 300;
             }
             
