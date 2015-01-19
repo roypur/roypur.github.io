@@ -8,9 +8,9 @@ function addSpace(){
     
         var space = height - offset - bottom;
             
-            if(typeof(window.orientation) != "undefined"){
-                space += 60;
-                }
+        if(typeof(window.orientation) != "undefined"){
+            space += 60;
+            }
             
         if(space>100){
             document.getElementById('space').style.height = space;
