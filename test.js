@@ -1,18 +1,11 @@
 function addSpace(){
     
     var height;
-    
-    var calc = Math.ceil((screen.height/window.outerHeight)*window.innerHeight);
         
     document.getElementById('space').innerHTML = window.innerHeight + "x" + screen.height + "x" + calc + "x";
-    
-    
-    if(typeof(window.orientation) == "undefined"){
-        height = window.innerHeight; //available space
-        }
-    else{
-        height = calc;
-        }
+
+    height = window.innerHeight; //available space
+
     
     document.getElementById('space').style.height = height;
     
