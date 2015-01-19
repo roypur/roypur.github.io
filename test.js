@@ -9,7 +9,7 @@ function addSpace(){
         var space = height - offset - bottom;
             
         if(typeof(window.orientation) != "undefined"){
-            space += 300;
+            space += 200;
             }
             
         if(space>100){
