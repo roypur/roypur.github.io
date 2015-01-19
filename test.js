@@ -1,8 +1,8 @@
 function addSpace(){
 
-    document.getElementById('space').innerHTML = window.innerHeight + "x" + screen.height + "x" + calc + "x";
+    document.getElementById('space').innerHTML = window.innerHeight + "x" + window.scrollHeight + "x";
 
-   var  height = window.innerHeight; //available space
+    var height = window.innerHeight; //available space
 
     document.getElementById('space').style.height = height;
     
