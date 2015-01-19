@@ -14,7 +14,7 @@ function addSpace(){
             
         if(space>100){
             document.getElementById('space').style.height = space;
-            document.body.style.overflowY = 'hidden';
+            document.body.style.overflowY = 'auto';
             }
         else{
             document.getElementById('space').style.height = 100;
