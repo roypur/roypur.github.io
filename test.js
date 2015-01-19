@@ -1,6 +1,6 @@
 function addSpace(){
 
-    document.getElementById('space').innerHTML = window.innerHeight + "x" + window.scrollHeight + "x";
+    document.getElementById('space').innerHTML = window.innerHeight + "x" + document.body.scrollHeight;
 
     var height = window.innerHeight; //available space
 
@@ -8,7 +8,6 @@ function addSpace(){
     
     
     var scroll = document.body.scrollHeight;
-    
     var content = scroll - height;
     
     var space = height-content; //size of space div
@@ -26,6 +25,11 @@ function addSpace(){
 if(typeof(window.orientation) == "undefined"){
     window.onresize=addSpace;
     }
+else{
+    window.onscroll=addSpace;
+    }
+
+
 
 window.onload=addSpace;
 
