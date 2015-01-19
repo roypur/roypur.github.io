@@ -1,6 +1,14 @@
 function addSpace(){
-
-    document.getElementById('space').innerHTML = window.innerHeight + "x" + document.body.scrollHeight + "x" + document.getElementById('bottom').offsetTop;
+    
+    var last = document.body.dataset.height;
+    
+    if(typeof(last) == "undefined" || window.innerHeight > last*1){
+        document.body.dataset.height = window.innerHeight;
+        }
+        
+    document.getElementById('space').innerHTML = window.innerHeight + "x" + last;
+    
+    document.body.dataset.height = 
     
     document.getElementById('space').style.height = 0;
     
