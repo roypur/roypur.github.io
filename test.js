@@ -7,10 +7,10 @@ function addSpace(){
         var bottom = document.getElementById('bottom').offsetHeight;
     
         var space = height - offset - bottom;
-        
-        if(typeof(window.orientation) == "undefined"){
-            space += 400;
-            }
+            
+            if(typeof(window.orientation) != "undefined"){
+                space += 400;
+                }
             
         if(space>100){
             document.getElementById('space').style.height = space;
@@ -20,7 +20,6 @@ function addSpace(){
             document.getElementById('space').style.height = 100;
             document.body.style.overflowY = 'scroll';
             }
-       // }
     }
 
 if(typeof(window.orientation) == "undefined"){
