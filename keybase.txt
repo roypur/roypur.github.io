@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/roypur
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://royolav.net
+  * I am roypur (https://keybase.io/roypur) on keybase.
+  * I have a public key with fingerprint 4B59 63E0 F038 E4E8 6200  3020 C74B 9A80 D030 A3F2
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "4b5963e0f038e4e862003020c74b9a80d030a3f2",
+            "host": "keybase.io",
+            "key_id": "c74b9a80d030a3f2",
+            "kid": "0101dcf6ea7589b929b9b85885032d421f1bb7fe13e8be85800af3ef218d8cca14010a",
+            "uid": "e4772823056f0341f20bc548b32b9419",
+            "username": "roypur"
+        },
+        "service": {
+            "hostname": "royolav.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428417111,
+    "expire_in": 157680000,
+    "prev": "f384f39d78df1038eddf4330068954cb96d3ded0d04d984a3c29569ad62c3aff",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFtUn1MVWUYv1cv8RGMWCMg4VInGmFXON/3nDNkY7SaYJmFQeZi5+M99x7Qcy7n
+Hq6AmKAopihMC8JKJBDpLsliJUgBRckQDItwQ/nWjFhjgY0W8dE5rNY//fHu3fv8
+Pt7n+e2pDFpv8jP3pJ0pvgHXz5v7vkriTDuemBH2QZwiFEDMPigHrF2iJDuA6lIl
+WYMYCOcImsQALMIYBXBAkSgMYzAK83aco1kKFvQXi4koZIOcittQ6DYc6wbxkqLX
+9EeWJOjV/+HnrAEwAiMCL5KAtRMUzdGofjiKoCgCxlABRxER4Ti7CBAMUBzQARhm
+RQyIKEIJFM+zCK47sLpd3podwO12lEIxmCD1lnFERGGOJ3CKw1COxhHaILqBKrN7
+gM5WlQJXngrtt0F6zSPxwAjAmOM/XNnNeuJloOlCl6poCq/s1gGnprkYQ6cVuAzi
+XsBl/WORxUmyoGeoCzxAdUuKDDGIzuQ1yfBEcJTCETuCIDYI5LskFWRJBoOwk/po
+MGx8Azy6pYhRuIjRgp0SRMRIXxBEHMNgmKRoAuc5mhQwAQh6orhAUziL8ShNkDQr
+kCiPsaIIGUPlygrEoHqbrEO3dEsOmdXyVADtD3hzXaTFZPYzPeCzzlgDU4D/Q/8u
+xwutwSvwBeXui1zNyt1eR1mQF61xJhRMT4h1fy7+spoTlBrq3/1+9Njg5qKgLcPV
+DfEnTyaHWCe3Xd/gfjjhHcxru1Gwydo21PH8vXPe1YnVEzJz9MihlkTi/JJFviPO
+ZzZ+UxUecGujWJfa73X65m4Ln51Da1ufHdi6ueZyF7xxLiVyqq7kVbLyteDCkpao
+/OT8vs9+ejkm9OYx28LhWxWfL/3sE/b2gZW/iqtug+ypuJGdPnGXe9M8Edld/p1z
+ckan9utCZPpsRHNzdXF9Zn1fkrMwbWRXQ+Xp2b0xGQu1A0rctea3vjt74ctN3Ynt
+oycOTJ2KsCSftoQ5mIbeHbkVcljpQX/siOWH86WxyeaQH8dHjzd6hPiSEesXW6lP
+B9I7xlLU9umQ2vy85ckiYvxR31diisqqkz4JC931+O/3003erqHAj/244IknY4dJ
+rb9K+ajipeKqmadNM6WZjWxZU+ofx/uHW6zWEWZL6nvundGLdyof/Jo5Gpmg9Xy/
+3Dhwqb00sCkge3xo8lrDxbNXD7WuvNsRNnj/4FL09cOPzccw5fPLmgttigIXMzYE
+PlLIzIQ7norq/LaPNFueKVzHT89P/ra+r/zSVWupzbkn5sqxDz5se8MfSMW1du/o
+67Fme2IDe9v1XMrNwu2+V87EdS+eWzEvLdFtPa3M9jo8+1QZfm9MTSkvGvwb
+=cCFn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/roypur
+
+==================================================================
